@@ -1,0 +1,51 @@
+.reasons
+  min-height: 248px
+  &-text
+    width: 23.1%
+    +font-Serif
+    &__style
+      font-size: 34px
+      font-weight: normal
+      font-style: normal
+      font-stretch: normal
+      line-height: 1
+      letter-spacing: normal
+      color: $brownish-grey
+  &-person
+    width: 330px
+    margin-top: 30px
+    position: relative
+    select
+      -webkit-appearance: none
+      -moz-appearance: none
+      cursor: pointer
+      &:focus
+        outline: none
+.angle-down
+  display: flex
+  justify-content: flex-end
+  cursor: pointer
+
+.reasons-container
+  padding-top: 90px
+  display: flex
+  justify-content: space-around
+.person
+  position: absolute
+  top: -17px
+  width: 330px
+  +font-Sans
+  border: none
+  border-bottom: solid 2px #ababab
+  padding-bottom: 8px
+  font-size: 28px
+  font-weight: normal
+  font-style: normal
+  font-stretch: normal
+  line-height: 1.21
+  letter-spacing: normal
+  color: $orange-red
+  background-color: initial
+.person-not-selected
+  font-size: 20px !important
+  color: $brownish-grey !important

@@ -1,0 +1,107 @@
+.slider1
+  min-height: 690px
+  background-image: url('../img/slider.jpg')
+  background-repeat: no-repeat
+  +font-Serif
+  margin-top: 17px
+.text
+  margin-top: 206px
+  +font-Serif
+  &__color
+    color: #ffffff
+  &__description
+    width: 69%
+    font-size: 48px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: 1
+    letter-spacing: normal
+    color: #ffffff
+  &__more
+    font-size: 24px
+    font-weight: normal
+    &-color
+      color: #ffffff
+    &:hover a
+      font-style: italic
+      color: $orange-red
+  &-position
+    margin-left: 1.1%
+    margin-top: 2.9%
+
+.line
+  border-right: solid 2px $orange-red
+  margin-left: 9px
+  margin-right: 9px
+
+.info
+  width: 62%
+  display: flex
+  justify-content: space-between
+  padding-top: 114px
+  margin-left: 12.2%
+.long-line
+  height: 45px
+  border-right: solid 2px $orange-red
+  margin-top: 2%
+  margin-bottom: 2.2%
+  &__width
+    width: 0
+
+.angle-style
+  font-size: 48px
+  color: $orange-red
+  cursor: pointer
+.angle-left, .angle-right
+  z-index: 1
+
+.owl-nav
+  width: 88%
+  margin-left: 6.3%
+  display: flex
+  justify-content: space-between
+  position: absolute
+  top: 53%
+.image-border
+  position: relative
+  left: -3.5%
+.border-container
+  position: absolute
+  top: 0
+  left: 0
+.border-style
+  position: relative
+  &:before
+    content: ''
+    width: 39px
+    height: 56px
+    position: absolute
+    top: 71px
+    left: 120px
+    border-right: 2px solid $orange-red
+    border-left: 2px solid $orange-red
+    -webkit-transform: skewY(-25deg)
+    -moz-transform: skewY(-25deg)
+    -ms-transform: skewY(-25deg)
+    -o-transform: skewY(-25deg)
+    transform: skewY(-25deg)
+  &:after
+    content: ''
+    width: 39px
+    height: 56px
+    position: absolute
+    top: 16px
+    left: 200px
+    border-right: 2px solid $orange-red
+    border-left: 2px solid $orange-red
+    -webkit-transform: skewY(-25deg)
+    -moz-transform: skewY(-25deg)
+    -ms-transform: skewY(-25deg)
+    -o-transform: skewY(-25deg)
+    transform: skewY(-37deg)
+.border-margin2
+  margin-top: 82px
+.border2
+  left: -120px
+  top: 241px

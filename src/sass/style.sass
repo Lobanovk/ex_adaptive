@@ -1,0 +1,33 @@
+$orange-red: #ff351b
+$brownish-grey: #636363
+@import "mixin"
+@import "header"
+@import "slider1"
+@import "reasons"
+@import "rosaburgh"
+@import "gerryville"
+@import "baner"
+@import "slider2"
+@import "tips_arcticle"
+@import "rebeccamouth"
+@import "footer"
+@import "media_width_1024"
+@import "media_width_768"
+@import "media_width_320"
+
+h1,h2,h3,h4,p,ul,li
+  padding: 0
+  margin: 0
+
+.wrapper
+  +container
+  display: flex
+  flex-direction: column
+
+.content
+  flex: 1
+.footer
+  flex: 0 0 auto
+.disabled-all
+  opacity: 0
+

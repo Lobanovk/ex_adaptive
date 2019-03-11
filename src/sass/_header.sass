@@ -1,0 +1,70 @@
+.header
+  +font-Sans
+  width: 100%
+  display: flex
+  justify-content: space-between
+
+.logo
+  margin-top: 79px
+  margin-left: 6%
+  &__text
+    +font-Serif
+    font-size: 59px
+    font-weight: normal
+    color: #000000
+
+.lang_and_menu
+  width: 726px
+  margin-right: 6%
+
+.language
+  margin-top: 15px
+  display: flex
+  justify-content: flex-end
+
+  &-margin
+    margin-left: 6px
+  &-link
+    font-size: 12px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #000000
+    &:hover
+      color: $orange-red
+    &-active
+      color: $orange-red
+
+.menu-flex,
+.language-flex
+  display: flex
+
+.style-li
+  list-style-type: none
+.style-link
+  text-decoration: none
+
+.menu
+  display: flex
+  margin-top: 75px
+  justify-content: flex-end
+  li:first-child a
+    padding-left: 0
+  li>a
+    font-size: 20px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    text-transform: uppercase
+    color: #000000
+    padding-right: 15px
+    padding-left: 15px
+    &:hover
+      color: $orange-red
+  &-border-right
+    border-right: 1px solid #000000
+
+.search-link
+  padding-left: 15px
